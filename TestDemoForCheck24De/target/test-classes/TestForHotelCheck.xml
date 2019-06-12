@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite for checking search hotel" verbose="1">
+
+    <test name="testForCreateRandomAccountAndSearchHotelInLocation">
+        <parameter name="city" value="Moscow" />
+        <classes>
+            <class name="com.TestForHotelCheck"/>
+
+        </classes>
+    </test>
+</suite>
